@@ -5,13 +5,13 @@ body{
 }
 body{
 	 background :url(../img/giphy3.gif) no-repeat center top / cover; 
-	 height: 100px;
+	 height: 160px;
 	
 	}
 
 .container{	
 	width: 540px;
-	height: 100px;
+	height: 160px;
 	margin: 0 auto;
 }
 p{
