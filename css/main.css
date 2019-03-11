@@ -1,25 +1,28 @@
 
+
 body{
 	margin: 0;
 	padding : 0;
 }
 body{
 	 background :url(../img/giphy3.gif) no-repeat center top / cover; 
-	 height: 160px;
+	 height: 900px;
 	
 	}
 
 .container{	
 	width: 540px;
-	height: 160px;
+	height: 900px;
 	margin: 0 auto;
+ 	border: 10px solid red;
+ 	
 }
 p{
-	margin-left: 140px;
+	margin-left: 160px;
 	margin-top: 320px;
 }
 p2{
-	margin-left: 190px;
+	margin-left: 210px;
 }	
 
 .menu {
@@ -31,7 +34,7 @@ p2{
     
 .menu li {
 	display: block;
-	margin-left: 140px;
+	margin-left: 160px;
 	margin-top: 30px;
 }
 
@@ -40,4 +43,3 @@ p2{
 	text-decoration: none;
 	margin-right: 14px;
 
-}
