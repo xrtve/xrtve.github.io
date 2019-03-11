@@ -5,6 +5,7 @@ body{
 }
 body{
 	 background :url(../img/kruto.gif) no-repeat center top / cover; 
+	 height:4000px;
 	 background-size:cover; 
 	}
 
