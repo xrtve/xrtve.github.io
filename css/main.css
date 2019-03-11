@@ -4,14 +4,14 @@ body{
 	padding : 0;
 }
 body{
-	 background :url(../img/kruto.gif) no-repeat center top / cover; 
-	 height: 1000px;
+	 background :url(../img/giphy3.gif) no-repeat center top / cover; 
+	 height: 100px;
 	
 	}
 
 .container{	
 	width: 540px;
-	height: 500px;
+	height: 100px;
 	margin: 0 auto;
 }
 p{
