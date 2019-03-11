@@ -4,21 +4,15 @@ body{
 	padding : 0;
 }
 body{
-	background :url(../img/kruto.gif) no-repeat center top / cover; 
-	height: 500px
-	position:fixed;
-        top:0;
-        left:0; 
-        /* Preserve aspet ratio */5th:100%;
-        min-height:100%;
-}
+	 background :url(../img/kruto.gif) no-repeat center top / cover; 
+	 height: 500px
+	 background-size:cover; 
+	}
+
 .container{	
-	/*324*/
 	width: 540px;
 	height: 500px;
 	margin: 0 auto;
-	
-
 }
 p{
 	margin-left: 140px;
