@@ -1,43 +1,32 @@
 
-body{
-	margin: 0;
-	padding : 0;
-}
-body{
-	 background :url(../img/kruto.gif) no-repeat center top / cover; 
-	 height:4000px;
-	 background-size:cover; 
-	}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>XRTVEE</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<p><img src="img/xrtve.png"></p>
+		<p2><img src="img/Line.png" alt="img/Line.png"></p2>
+		<nav>
+			<ul class="menu">
+				<li>
+					<a href="https://vk.com/xrtvedesign"> вконтакте </a>
+					<a href="https://www.instagram.com/xrtve/"> инстаграм </a>
+					<a href="https://t.me/xrtvedsgn"> телеграмм </a>
+					
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+</body>
+</html>
 
-.container{	
-	width: 540px;
-	height: 500px;
-	margin: 0 auto;
-}
-p{
-	margin-left: 140px;
-	margin-top: 320px;
-}
-p2{
-	margin-left: 190px;
-}	
 
-.menu {
-	padding: 0;
-	margin: 0;
-	display: block;
-}
 
-    
-.menu li {
-	display: block;
-	margin-left: 140px;
-	margin-top: 30px;
-}
 
-.menu li a {
-	color: white;
-	text-decoration: none;
-	margin-right: 14px;
 
-}
+	
