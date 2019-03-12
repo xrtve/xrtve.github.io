@@ -1,0 +1,65 @@
+body {
+	height: 600px;
+	background: url(../img/kruto.gif);
+	background-position: center center;   /* эти параметры сделали мой фон неподвижным при изменении масштаба*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464646;
+	}
+
+.container{	
+	width: 540px;
+	height: 900px;
+	margin: 0 auto;
+ 	
+ 	
+}
+p{
+	margin-left: 150px;
+	margin-top: 40px;
+}
+p2{
+	margin-left: 200px;
+}	
+
+.menu {
+	padding: 0;
+	margin-right: 10px;
+	display: block;
+	margin-top: 25px;
+}
+.kartinki {
+  
+   	padding-top: 250px;
+   }
+    
+.menu li {
+	height:50px;
+	width:600px;
+	display: block;
+	margin-left: 100px;
+	margin-top: 10px;
+	font-size: 25px;
+	
+}
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+	margin-right: 14px;
+}
+
+@media screen and (max-width: 980px) {
+
+   .kartinki {
+   	margin-top: 400px;
+   }
+
+  }
+
+
+}
+	
+
+
+
