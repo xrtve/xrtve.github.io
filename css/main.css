@@ -1,13 +1,12 @@
 
 
-body{
-	margin: 0;
-	padding : 0;
-}
-body{
-	 background :url(../img/giphy3.gif) no-repeat center top / cover; 
-	 height: 900px;
-	
+body {
+	height: 600px;
+	background: url(../img/kruto.gif);
+	background-position: center center;   /* эти параметры сделали мой фон неподвижным при изменении масштаба*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464646;
 	}
 
 .container{	
@@ -18,28 +17,48 @@ body{
  	
 }
 p{
-	margin-left: 160px;
-	margin-top: 320px;
+	margin-left: 150px;
+	margin-top: 40px;
 }
 p2{
-	margin-left: 210px;
+	margin-left: 200px;
 }	
 
 .menu {
 	padding: 0;
-	margin: 0;
+	margin-right: 10px;
 	display: block;
+	margin-top: 25px;
 }
-
+.kartinki {
+  
+   	padding-top: 250px;
+   }
     
 .menu li {
+	height:50px;
+	width:600px;
 	display: block;
-	margin-left: 160px;
-	margin-top: 30px;
+	margin-left: 100px;
+	margin-top: 10px;
+	font-size: 25px;
+	
 }
 
 .menu li a {
 	color: white;
 	text-decoration: none;
 	margin-right: 14px;
+}
 
+@media screen and (max-width: 980px) {
+
+   .kartinki {
+   	margin-top: 400px;
+   }
+
+  }
+
+
+}
+	
